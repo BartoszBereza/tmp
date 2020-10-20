@@ -1,0 +1,11 @@
+div.Content {
+    width: 747px;
+    height: 560px;
+    font-size: 15px;
+    margin: 10px auto 10px auto;
+}
+
+p.Content {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}

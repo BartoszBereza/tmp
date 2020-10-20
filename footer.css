@@ -1,0 +1,10 @@
+div.Footer {
+    width: 953px;
+    height: 20px;
+}
+
+p.Footer {
+    margin: 3px 10px 5px 10px;
+    font-size: 10px;
+    text-align: left;
+}

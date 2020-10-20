@@ -1,0 +1,76 @@
+div.TopMenu {
+    width: 953px;
+    height: 40px;
+}
+
+ol.TopMenu {
+    width: 953px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ol.TopMenu > li {
+    width: 317px;
+    height: 40px;
+    float: left;
+    margin-left: 1px;
+
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+ol.TopMenu > li:hover {
+    background-color: rgba(200,255,100,0.9);
+}
+
+ol.TopMenu > li:first-child {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 0px;
+}
+
+ol.TopMenu > li:last-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+ol.TopMenu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+ol.TopMenu > li > ol {
+    display: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+
+    font-size: 13px;
+    font-weight: normal;
+}
+
+ol.TopMenu > li:hover > ol {
+    display: block;
+}
+
+ol.TopMenuButtons > li {
+    width:317px;
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(200,220,100,0.8);
+    border-top: 1px solid rgba(0,0,0,1);
+    line-height: 40px;
+}
+
+ol.TopMenuButtons > li:hover {
+    background-color: rgba(200,255,100,0.9);
+}

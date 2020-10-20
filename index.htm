@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+	<link rel="Stylesheet" type="text/css" href="topmenu.css" />
+	<link rel="Stylesheet" type="text/css" href="menu.css" />
+	<link rel="Stylesheet" type="text/css" href="content.css" />
+	<link rel="Stylesheet" type="text/css" href="footer.css" />
+	<link rel="Stylesheet" type="text/css" href="slider.css" />
+	<script type="text/javascript" src="menu.js"></script>
+	<title name="title">Python - Home</title>
+</head>
+<body>
+	<div class="Slider"></div>
+	<div class="TopMenu">
+		<ol class="TopMenu">
+			<li><a href="index.htm">Strona Główna</a></li>
+			<li>Kurs Pythona
+				<ol class="TopMenuButtons">
+					<li><a href="basics.html">Podstawy</a></li>
+				</ol>
+			</li>
+			<li><a href="contact.html">Kontakt</a></li>
+		</ol>
+	</div>
+	<div class="Menu">
+		<h3>Menu</h3>
+		<ol class="Menu">
+			<li><a onclick=loadChapter("basics")>Podstawy</a></li>
+			<li><a onclick=loadChapter("datatypes")>Typy danych</a></li>
+			<li><a onclick=loadChapter("conditions")>Warunki</a></li>
+			<li><a onclick=loadChapter("loops")>Pętle</a></li>
+			<li><a onclick=loadChapter("functions")>Funkcje</a></li>
+			<li><a onclick=loadChapter("classes")>Klasy</a></li>
+		</ol>
+	</div>
+	<div class="Content">
+		<h3 class="Content" name="title"></h3>
+		<p class="Content" id="content"></p>
+	</div>
+	<div class="Footer"><p class="Footer">Copyright &#xA9 2020 Bartosz Bereza</p></div>
+</body>
+</html>
